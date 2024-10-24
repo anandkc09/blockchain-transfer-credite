@@ -1,0 +1,15 @@
+[package]
+name = "voting-dapp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+TutoringDao = "0x1db6271045ed644aaa0aafbae5d56998ba73e072406269188348714cd4064d14"
+my_addrx = "0x1db6271045ed644aaa0aafbae5d56998ba73e072406269188348714cd4064d14"
+
+[dev-addresses]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework" }
+
+[dev-dependencies]
